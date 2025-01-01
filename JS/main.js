@@ -1,3 +1,5 @@
+// q1
+
 let images = [
   "imges/download.webp",
   "imges/download.webp",
@@ -13,6 +15,8 @@ listItems.forEach((li, index) => {
   img.src = images[index];
   li.appendChild(img);
 });
+
+// q2 
 
 let num = prompt("Enetr Number");
 let arr = [1, 2, 12];
